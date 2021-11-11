@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Nosso Contato</title>
+	<link rel="stylesheet" href="CSS/estiloP.css">
+	
+</head>
+
+<body>
+	<input type="checkbox" id="check">
+		<label id="icone" for="check"><img src="icone.png"/></label>
+		<div class="barra">
+			<nav>
+				<a href="index.html"><div class="link">Home</div></a>
+				<a href="mapa.html"><div class="link">Mapa</div></a>
+				<a href="fotos.html"><div class="link">Fotos</div></a>
+				<a href="multimidia.html"><div class="link">Multimidia</div></a>
+				<a href="contato.html"><div class="link">Contato</div></a>
+			</nav>
+		</div>
+	
+	<div id="interface">
+<header id="cabecalho">
+	<hgroup>
+	<h2>Tecnico em Desenvolvimento de sistemas</h2>
+	</hgroup>
+	</header>
+	
+	<section id="corpo_2">
+	<article id="noticia_principal">
+	<header id="cabecalhonoticia" >
+		<hgroup>	
+			<h1>Fale com nossa equipe:</h1>
+			<h2>Tem alguma sugestão para a nossa equipe</h2>
+			<h3>Por: Bruno</h3>
+			<h3 class="direita" >Ultima Atualização: ontem a noite</h3>
+		</hgroup>
+	</header>
+<form method="post" id="fcontato" action="mailto:insaurrauld.bruno@gmail.com">
+		<fieldset id="usuario">
+		
+			<legend>identifique-se</legend>
+			<p><label for="cNome">Nome:</label><input type="text" name="tNome" id="cNome" size="50" maxlength="20"  placeholder="Nome Completo"> </p>
+			<p>E-mail: <input type="email" name="tEmail" id="cEmail" size="50" maxlength="40" placeholder="Digita aqui Otario"></p>
+			</fieldset>
+		<fieldset id="sexo">
+			<legend>sexo:</legend>
+			<input type="radio" name="tRadio" id="cMasc" checked > <label for="cMasc">Masculino</label> <br>
+			<input type="radio" name="tRadio" id="cFem"><label for="cFem">Feminino</label>
+		</fieldset>	
+		
+			
+	<fieldset id="mensagem">
+		<legend>Mensagem do Usuário</legend>
+	<p> Mensagem:<textarea name="tMsg" id="cMsg" cols="45" rows="5" placeholder="Deixe aqui sua Sugestão"></textarea> </p>
+	</fieldset>
+		
+	<input type="image" src="Fotos_Prontas/botao-enviar.png">
+</form>
+		
+</article>
+	</section>
+</div>	
+	
+</body>
+</html>
